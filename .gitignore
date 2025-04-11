@@ -1,15 +1,23 @@
-.venv
-.env
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pyw
-*.pyz
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+env/
 
+# Arquivos Python compilados
+__pycache__/
+*.py[codwz]
+
+# Logs
 *.log
 *.log.*
 *.log.*.*
 *.log.*.*.*
 *.log.*.*.*.*
 *.log.*.*.*.*.*
+
+# MacOS
+.DS_Store
+
+# Jupyter
+*.ipynb_checkpoints
